@@ -1,0 +1,42 @@
+#section01 {
+    height: 2534px;
+    background: url(../img/01_bx/01_main/bg.jpg) no-repeat #f4fbfd;
+
+}
+#section01 .top {
+    margin: 62px 0 100px 0;
+    text-align: center;
+}
+#section01 .wrap_title {
+    text-align: center;
+    margin-bottom: 62px;
+}
+#section01 .wrap_title .pre_title {
+    margin-bottom: 20px;
+}
+#section01 .wrap_title .title {
+    position: relative;
+    padding-top: 18px;
+}
+#section01 .wrap_title .title .dec_flower {
+    position: absolute;
+    top: 0px;
+    left: 52.7%;
+}
+
+#section01 .wrap_bw {
+    width: 100vw;
+    height: 818px;
+    position: relative;
+}
+#section01 .wrap_bw > div {
+    position: absolute;
+}
+#section01 .wrap_bw .left { left: -85px; bottom: 0; }
+#section01 .wrap_bw .right { right: -65px; bottom: 0; }
+#section01 .wrap_bw .mid { 
+    left: 50%; 
+    top: 0; 
+    transform: translateX(-50%);
+    z-index: 2; 
+}
