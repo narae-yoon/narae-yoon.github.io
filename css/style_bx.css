@@ -194,3 +194,200 @@
 #section03 .right .font_list .pre_title { margin-bottom: 26px; }
 #section03 .right .font_list > ol > li { margin-bottom: 45px; }
 #section03 .right .font_list .ko { margin-top: 55px; }
+
+#section04 {
+    background: url(../img/01_bx/03_page_1/bg_intro.jpg);
+    height: 1796px;
+}
+#section04 .top,
+#section05 .top {
+    margin: 50px 35px 70px;
+    display: flex;
+    justify-content: space-between;
+}
+#section04 .wrap_intro,
+#section05 .wrap_main {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    z-index: 200;
+}
+#section04 .title,
+#section05 .title {
+    margin-bottom: 50px;
+}
+#section04 .title > div:nth-child(2),
+#section05 .title > div:nth-child(2) {
+    margin: 20px 0 40px;
+}
+#section04 .wrap_intro .video {
+    width: 1484px;
+    height: 758px;
+    position: absolute;
+    top: 288px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#section04 .wrap_intro .dec {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+#section04 .wrap_intro_to_main {
+    position: relative;
+    z-index: 100;
+    margin-top: -6px;
+}
+#section04 .wrap_intro_to_main .title {
+    margin-bottom: 72px;
+}
+#section04 .wrap_intro_to_main .title > div {
+    display: flex;
+}
+
+#section04 .wrap_intro_to_main .title .first {
+    margin: 0 0 60px 80px;
+    align-items: center;
+}
+#section04 .wrap_intro_to_main .title .first > div:nth-child(2) {
+    margin: 0 45px 0 50px;
+}
+#section04 .wrap_intro_to_main .title .first > div:nth-child(3) {
+    margin-top: 18px;
+}
+#section04 .wrap_intro_to_main .title .second {
+    margin-right: 50px;
+    justify-content: right;
+    align-items: flex-end;
+}
+#section04 .wrap_intro_to_main .title .second > div:nth-child(2) {
+    margin-left: 30px;
+}
+#section04 .wrap_intro_to_main .title .second > div:nth-child(3) {
+    margin-bottom: -40px;
+}
+#section04 .wrap_intro_to_main .contents {
+    margin: 0 212px 0 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#section05 {
+    background: url(../img/01_bx/03_page_1/bg_main.jpg) no-repeat #fff;
+    height: 2050px;
+}
+
+#section06 {
+    height: 1260px;
+    overflow: visible;
+    background: url(../img/01_bx/04_page_2/bg_lines.jpg) no-repeat #fff;
+    z-index: 100;
+}
+#section06 .title > div {
+    display: flex;
+}
+#section06 .title .first {
+    margin: 0 0 48px 50px;
+}
+#section06 .title .first > div:nth-child(1) {
+    margin: -45px -10px 0 0;
+}
+#section06 .title .first > div:nth-child(3) {
+    align-self: flex-end;
+    margin: 0 0 15px 26px;
+}
+#section06 .title .second {
+    justify-content: right;
+    margin-right: 210px;
+}
+#section06 .title .second > div:nth-child(2) {
+    margin: -18px 0 0 8px;
+}
+#section06 .st { opacity: .5; }
+#section06 .st_candy {
+    position: absolute;
+    top: -88px;
+    right: 70px;
+}
+#section06 .st_cd {
+    position: absolute;
+    top: 50px;
+    right: -150px;
+}
+#section06 .contents {
+    position: relative;
+}
+#section06 .contents .left .wrap_album_gif {
+    width: 480px;
+    height: 635px;
+    margin: -70px 0 145px 0;
+    position: relative;
+}
+#section06 .contents .left .wrap_album_gif > div:nth-child(1) {
+    position: relative;
+    z-index: 200;
+}
+#section06 .contents .left .album_gif {
+    width: 480px;
+    height: 600px;
+    position: absolute;
+    top: 26px;
+    left: 0px;
+    background: url(../img/01_bx/04_page_2/ss_inter.gif) 820px 0px ;
+    z-index: 300;
+}
+#section06 .contents .left .wrap_album_gif .st {
+    position: absolute;
+    right: -110px;
+    bottom: -68px;
+    z-index: 100;
+}
+#section06 .contents .left .txt {
+    margin-left: 180px;
+}
+#section06 .contents .right {
+    margin-top: -190px;
+    position: absolute;
+    top: 70px;
+    right: -495px;
+}
+
+#section07 {
+    height: 1150px;
+    background: url(../img/01_bx/04_page_2/bg_album_inter.jpg);
+}
+#section07 .dec_tab {
+    position: absolute;
+    left: 0;
+    bottom: -28px;
+}
+
+#section08 {
+    height: 1906px;
+    background: url(../img/01_bx/04_page_2/bg_album01.jpg);
+}
+
+#section09 {
+    height: 2268px;
+    background: url(../img/01_bx/04_page_2/bg_album02.jpg);
+}
+
+#section10 {
+    height: 3070px;
+    background: url(../img/01_bx/04_page_2/bg_album03.jpg) no-repeat #fff;
+}
+
+#section11 {
+    height: 2770px;
+    background: url(../img/01_bx/04_page_2/bg_phoning.jpg) no-repeat #fff;
+}
+
+#section12 {
+    height: 2260px;
+    background: url(../img/01_bx/05_page_3/bg_menu.jpg) no-repeat #fff;
+}
+
+#section13 {
+    height: 964px;
+    background: url(../img/01_bx/05_page_3/bg_thank.jpg);
+}
